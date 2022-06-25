@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" />
+  <title>BMI Calculator</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/538327ee33.js" crossorigin="anonymous"></script>
+  <script src="./script.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar fixed-top header  bt-0 justify-content-between">
+    <h1>BMI CALCULATOR</h1>
+    <div>
+      <a href='https://gopu94.github.io/myPortfolioWebsite/' target='_blank'>
+        <img class='img' src='./gk.jpg' alt='to my site' /></a>
+    </div>
+  </nav>
+  <div class="container  ">
+
+    <h2 class="d-flex justify-content-center">FILL THE DETAILS</h2>
+    <div class="d-flex  flex-column justify-content-center ">
+      <p class="text ">Height</p>
+      <input class="text " type="number" min="1" max="300" id="h" value=""  />
+
+
+      <p class="text ">Weight</p>
+      <input class="text " type="number" min="1" max="300" id="w"/>
+
+      <p id="result"></p>
+      <button id="btn" onClick="BMI()">Calculate</button>
+      <p id="info" class="text d-flex justify-content-center">Please enter your height[cm] and weight[kg] above.</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
