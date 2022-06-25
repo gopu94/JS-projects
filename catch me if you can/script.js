@@ -31,10 +31,10 @@ function getNewPosition(boxWidth, boxHeight) {
 
     // These will satisfy that box does not move go out in the top and left direction
     if(newX < 0) {
-        newX = 0;
+        newX = 40;
     }
     if(newY < 0) {
-        newY = 0;
+        newY = 40;
     }
     
     return {x: newX, y: newY};

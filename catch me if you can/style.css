@@ -1,15 +1,33 @@
+*{
+    background: linear-gradient(120deg, #D9AFD9, #97D9E1);
+}
 #box {
     width: 10vw;
     height: 10vw;
-    background-color: #b916f4;
+    background-color: #93c52e;
     cursor: pointer;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20%;
 }
 
 #box p {
     font-size: 1.7vw;
     color: white;
 }
+.img{
+    border-radius: 100%; 
+     width: 7vh;
+     height: 7vh; 
+     margin-right:1rem ;
+   }
+   .header{
+    display: flex;
+     flex-direction: row;
+     z-index: 10;
+   }
+   .image{
+    margin-left:70vw ;
+   }

@@ -6,11 +6,28 @@
 }
 body{
     font-family: sans-serif;
-    background: url(./bg.jpg);
+    background:linear-gradient(120deg, #D9AFD9, #97D9E1);
     background-size: cover;
     background-position: top center;
 }
+.img {
+    border-radius: 100%;
+    width: 7vh;
+    height: 7vh;
+    margin-right: 1rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    z-index: 10;
+    margin: 1rem;
+}
+.image {
+    margin-left: 70vw;
+}
 .app-wrap{
+    
     display: flex;
     flex-direction: column;
     min-height: 100vh;
